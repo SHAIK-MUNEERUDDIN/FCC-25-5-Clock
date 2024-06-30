@@ -72,8 +72,12 @@ html {
   font-size: 5rem;
 }
 
-.input > span {
+.input > button {
   cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
 }
 
 #timer-label {

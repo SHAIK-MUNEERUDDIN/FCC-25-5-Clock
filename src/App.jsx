@@ -132,37 +132,45 @@ function App() {
             <div id="break-label">
               <h4 className="label-heading">Break Length</h4>
               <div className="input">
-                <span
+                <button
                   id="break-increment"
                   onClick={() => handleBreakLength("increment")}
                 >
-                  <FaArrowUp style={{ color: "green" }} />
-                </span>
+                  <i>
+                    <FaArrowUp style={{ color: "green" }} />
+                  </i>
+                </button>
                 <p id="break-length">{breakLength}</p>
-                <span
+                <button
                   id="break-decrement"
                   onClick={() => handleBreakLength("decrement")}
                 >
-                  <FaArrowDown style={{ color: "red" }} />
-                </span>
+                  <i>
+                    <FaArrowDown style={{ color: "red" }} />
+                  </i>
+                </button>
               </div>
             </div>
             <div id="session-label">
               <h4 className="label-heading">Session Length</h4>
               <div className="input">
-                <span
+                <button
                   id="session-increment"
                   onClick={() => handleSessionLength("increment")}
                 >
-                  <FaArrowUp style={{ color: "green" }} />
-                </span>
+                  <i>
+                    <FaArrowUp style={{ color: "green" }} />
+                  </i>
+                </button>
                 <p id="session-length">{sessionLength}</p>
-                <span
+                <button
                   id="session-decrement"
                   onClick={() => handleSessionLength("decrement")}
                 >
-                  <FaArrowDown style={{ color: "red" }} />
-                </span>
+                  <i>
+                    <FaArrowDown style={{ color: "red" }} />
+                  </i>
+                </button>
               </div>
             </div>
           </div>
