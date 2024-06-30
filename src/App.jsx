@@ -180,11 +180,7 @@ function App() {
               >
                 {calculateTime(timeLeft)}
               </p>
-              <audio
-                id="beep"
-                ref={audioRef}
-                src="../src/assets/media/bell-ring.mp3"
-              ></audio>
+              <audio id="beep" ref={audioRef} src="/bell-ring.mp3"></audio>
             </div>
           </div>
           <div id="button-container">
